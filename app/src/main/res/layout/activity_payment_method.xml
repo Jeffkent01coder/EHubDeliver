@@ -78,8 +78,9 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:layout_marginHorizontal="25dp"
         android:layout_marginVertical="8dp"
-        android:layout_width="401dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1A74FB"
         android:layout_gravity="center"
@@ -88,8 +89,6 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="160dp"
             android:background="#5FB85F"
             android:text="Payment On Delivery"
             android:textColor="@color/white">
