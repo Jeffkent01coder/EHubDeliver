@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EldorHubDeliveries">
         <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".About"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentMethod"
+            android:exported="true" />
+        <activity
             android:name=".Delivery"
             android:exported="true" />
         <activity

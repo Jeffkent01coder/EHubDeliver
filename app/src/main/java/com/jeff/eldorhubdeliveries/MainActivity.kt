@@ -11,9 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
-
         supportActionBar?.hide()
+        setContentView(binding.root)
 
         Handler().postDelayed({
             val intent = Intent(this, Login::class.java)

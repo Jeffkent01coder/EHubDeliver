@@ -1,5 +1,6 @@
 package com.jeff.eldorhubdeliveries
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.jeff.eldorhubdeliveries.databinding.ActivityDeliveryBinding
@@ -10,5 +11,9 @@ class Delivery : AppCompatActivity() {
         binding = ActivityDeliveryBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        binding.Payment.setOnClickListener {
+            startActivity(Intent(this, PaymentMethod::class.java))
+        }
     }
 }

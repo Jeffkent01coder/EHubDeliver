@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#1A74FB"
+    android:layout_height="match_parent"
+    tools:context=".PaymentMethod">
+
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Payment Method"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_marginVertical="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Items :"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="330dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginVertical="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location :"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="300dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginVertical="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price :"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="330dp">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="16dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginStart="20dp"
+        android:background="#1A74FB"
+        android:layout_marginVertical="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/ivMpesa"
+            android:background="#5FB85F"
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:src="@drawable/j">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginVertical="8dp"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:background="#1A74FB"
+        android:layout_gravity="center"
+        app:cardCornerRadius="16dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="160dp"
+            android:background="#5FB85F"
+            android:text="Payment On Delivery"
+            android:textColor="@color/white">
+
+        </RadioButton>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Conformation"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white">
+    </TextView>
+<LinearLayout
+    android:layout_marginVertical="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    >
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mpesa"
+        android:layout_weight="1"
+        android:textColor="@color/white"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment On Delivery"
+        android:layout_weight="1"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
+
+    <Button
+        android:layout_marginVertical="16dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#26E171"
+        android:layout_marginStart="100dp"
+        android:gravity="center"
+        android:layout_marginEnd="100dp"
+        android:text="Call Us" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for delivering with Eldorhub Deliveries kenya
+Welcome Back"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp">
+
+    </TextView>
+</LinearLayout>
+
