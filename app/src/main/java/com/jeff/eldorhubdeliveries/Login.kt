@@ -27,12 +27,14 @@ class Login : AppCompatActivity() {
                 if (filled){
                     // Authenticate with firebase later
                     startActivity(Intent(this, Dashboard::class.java))
+                    finish()
                 }
             }
         }
 
         binding?.tvAlreadyHaveAcc?.setOnClickListener {
             startActivity(Intent(this, Register::class.java))
+            finish()
         }
     }
 }

@@ -24,12 +24,14 @@ class Register : AppCompatActivity() {
                 if (filled){
                     // Authenticate with firebase later
                     startActivity(Intent(this, Login::class.java))
+                    finish()
                 }
             }
         }
 
         binding?.tvAlreadyHaveAcc?.setOnClickListener {
-            startActivity(Intent(this, Register::class.java))
+            startActivity(Intent(this, Login::class.java))
+            finish()
         }
     }
 

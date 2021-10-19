@@ -9,6 +9,7 @@ class PaymentMethod : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityPaymentMethodBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
+        supportActionBar?.hide()
         setContentView(binding.root)
     }
 }

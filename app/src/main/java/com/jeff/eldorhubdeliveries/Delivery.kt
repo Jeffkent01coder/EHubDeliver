@@ -10,6 +10,7 @@ class Delivery : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityDeliveryBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
+        supportActionBar?.hide()
         setContentView(binding.root)
 
         binding.Payment.setOnClickListener {

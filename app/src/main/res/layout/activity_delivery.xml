@@ -146,6 +146,7 @@ so that we may procced with your delivery request.
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginVertical="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -196,25 +197,34 @@ so that we may procced with your delivery request.
         android:text="Have you confirmed all your requirements"
         android:textColor="@color/white"/>
 
-
-
-        <Button
-            android:id="@+id/subs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:backgroundTint="#26E171"
-            android:layout_marginEnd="250dp"
-            android:text="Submit" />
-
-        <Button
-        android:id="@+id/Payment"
+    <LinearLayout
+        android:layout_marginVertical="20dp"
         android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="250dp"
-        android:backgroundTint="#26E171"
-        android:text="Payment" />
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subs"
+            android:backgroundTint="#26E171"
+            android:text="Submit"/>
+
+        <Button
+
+            android:id="@+id/Payment"
+            android:backgroundTint="#26E171"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment" />
+
+    </LinearLayout>
+
+
+
+
 
 
 </LinearLayout>

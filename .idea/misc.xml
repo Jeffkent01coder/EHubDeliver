@@ -13,6 +13,8 @@
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.35833333333333334" />
         <entry key="app/src/main/res/layout/activity_ui_menu.xml" value="0.35833333333333334" />
+        <entry key="app/src/main/res/layout/change_password.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/edit_profile.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.35833333333333334" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35885416666666664" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.35833333333333334" />
