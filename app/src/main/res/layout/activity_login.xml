@@ -67,6 +67,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Password"
+        android:maxLength="20"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
