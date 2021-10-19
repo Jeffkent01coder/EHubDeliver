@@ -10,6 +10,7 @@ class Register : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
+        supportActionBar?.hide()
         setContentView(binding.root)
 
         binding?.btnRegister?.setOnClickListener {

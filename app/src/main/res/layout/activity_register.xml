@@ -72,7 +72,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="numberPassword"
+        android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
