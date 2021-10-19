@@ -48,6 +48,18 @@
         android:layout_marginVertical="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Destination :"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="270dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginVertical="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Price :"
         android:textColor="@color/white"
         android:textStyle="bold"
