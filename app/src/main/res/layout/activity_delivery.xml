@@ -126,7 +126,7 @@ so that we may procced with your delivery request.
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Digital Appliance"
+                android:text="DigiApps"
                 android:layout_weight="1"
                 android:textColor="@color/white"/>
 
@@ -185,7 +185,7 @@ so that we may procced with your delivery request.
         android:text="Total Price:"
         android:textColor="@color/white"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="320dp">
+        android:layout_marginRight="290dp">
     </TextView>
     </LinearLayout>
 

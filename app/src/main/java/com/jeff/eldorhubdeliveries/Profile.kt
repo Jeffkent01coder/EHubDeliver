@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import com.jeff.eldorhubdeliveries.databinding.ActivityProfileBinding
+import com.jeff.eldorhubdeliveries.databinding.ChangePasswordBinding
 import com.jeff.eldorhubdeliveries.databinding.EditProfileBinding
 
 class Profile : AppCompatActivity() {
@@ -28,14 +29,14 @@ class Profile : AppCompatActivity() {
        }
 
         binding.changePass.setOnClickListener {
-            val dialogView = EditProfileBinding.inflate(layoutInflater)
+            val dialogView = ChangePasswordBinding.inflate(layoutInflater)
             val mBuilder = AlertDialog.Builder(this)
                 .setView(dialogView.root)
                 .setTitle("Change Password")
 
             mBuilder.create().show()
 
-            dialogView.btnCancel.setOnClickListener {
+            dialogView.btnCancel2.setOnClickListener {
                 mBuilder.create().cancel()
             }
         }
