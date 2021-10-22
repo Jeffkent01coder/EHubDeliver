@@ -93,6 +93,7 @@ so that we may procced with your delivery request.
             >
 
             <RadioButton
+                android:id="@+id/radio1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Food"
@@ -100,6 +101,7 @@ so that we may procced with your delivery request.
                 android:textColor="@color/white"/>
 
             <RadioButton
+                android:id="@+id/radio2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Documents"
@@ -107,11 +109,13 @@ so that we may procced with your delivery request.
                 android:textColor="@color/white"/>
 
             <RadioButton
+                android:id="@+id/radio3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Person"
                 android:layout_weight="1"
-                android:textColor="@color/white"/>
+                android:checked="false"
+                android:text="Person"
+                android:textColor="@color/white" />
 
         </LinearLayout>
 
@@ -124,6 +128,7 @@ so that we may procced with your delivery request.
             >
 
             <RadioButton
+                android:id="@+id/radio4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="DigiApps"
@@ -131,6 +136,7 @@ so that we may procced with your delivery request.
                 android:textColor="@color/white"/>
 
             <RadioButton
+                android:id="@+id/radio5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Furniture"
@@ -138,6 +144,7 @@ so that we may procced with your delivery request.
                 android:textColor="@color/white"/>
 
             <RadioButton
+                android:id="@+id/radio6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Clothes"
@@ -154,6 +161,7 @@ so that we may procced with your delivery request.
             >
 
             <RadioButton
+                android:id="@+id/radio7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Metals"
@@ -161,6 +169,7 @@ so that we may procced with your delivery request.
                 android:textColor="@color/white"/>
 
             <RadioButton
+                android:id="@+id/radio8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ceramics"
@@ -168,6 +177,7 @@ so that we may procced with your delivery request.
                 android:textColor="@color/white"/>
 
             <RadioButton
+                android:id="@+id/radio9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Others"
