@@ -12,8 +12,6 @@ interface UserDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertUsers(users: Users)
 
-    @Insert
-    suspend fun insert(users: Users)
 
     @Query("SELECT * FROM Users_Registration ORDER BY userId DESC")
     fun getAllUsers():LiveData<List<Users>>
