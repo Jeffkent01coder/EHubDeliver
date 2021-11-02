@@ -30,5 +30,4 @@ object AppModule {
         database: UserDatabase
     )=database.userDao
 
-
 }

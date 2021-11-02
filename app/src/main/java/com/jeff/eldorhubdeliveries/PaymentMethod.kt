@@ -1,5 +1,6 @@
 package com.jeff.eldorhubdeliveries
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
@@ -14,6 +15,12 @@ class PaymentMethod : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
         setContentView(binding.root)
+        val loc = Intent().getStringExtra("loc")
+        val des = Intent().getStringExtra("des")
+        binding.apply {
+            tvLocation.text = loc
+            tvDestination.text = des
+        }
 
         binding.ivMpesa.setOnClickListener {
             val dialogView = LipaBinding.inflate(layoutInflater)

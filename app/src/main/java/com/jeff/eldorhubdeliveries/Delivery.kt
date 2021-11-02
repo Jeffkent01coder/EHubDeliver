@@ -16,7 +16,13 @@ class Delivery : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.Payment.setOnClickListener {
-            startActivity(Intent(this, PaymentMethod::class.java))
+            var intent = Intent(this,PaymentMethod::class.java)
+            val loc = binding.etLocation.text.toString()
+            val des = binding.etDestination.text.toString()
+            intent.putExtra("loc", loc)
+            intent.putExtra("des", des)
+
+            startActivity(intent)
         }
 
 
@@ -51,9 +57,12 @@ class Delivery : AppCompatActivity() {
             selectOrUnselectRadioButton(binding.radio9.isChecked, binding.radio9)
         }
 
+
+
     }
 
     private fun selectOrUnselectRadioButton(bool: Boolean, button: RadioButton) {
         button.isChecked = !bool
     }
+
 }

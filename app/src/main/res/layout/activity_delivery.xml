@@ -43,6 +43,7 @@ so that we may procced with your delivery request.
         tools:layout_editor_absoluteY="158dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLocation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_add_location"
@@ -65,6 +66,7 @@ so that we may procced with your delivery request.
         tools:layout_editor_absoluteY="240dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDestination"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_baseline_roofing_24"
