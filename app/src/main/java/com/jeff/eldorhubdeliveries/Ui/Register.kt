@@ -1,4 +1,4 @@
-package com.jeff.eldorhubdeliveries
+package com.jeff.eldorhubdeliveries.Ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

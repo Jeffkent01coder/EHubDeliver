@@ -3,7 +3,7 @@
     package="com.jeff.eldorhubdeliveries">
 
     <application
-        android:name=".EldorHubApplication"
+        android:name=".Ui.EldorHubApplication"
         android:allowBackup="true"
         android:icon="@drawable/fd"
         android:label="@string/app_name"
@@ -11,28 +11,28 @@
         android:theme="@style/Theme.EldorHubDeliveries">
         android:supportsRtl="true">
         <activity
-            android:name=".Profile"
+            android:name=".Ui.Profile"
             android:exported="true" />
         <activity
-            android:name=".About"
+            android:name=".Ui.About"
             android:exported="true" />
         <activity
-            android:name=".PaymentMethod"
+            android:name=".Ui.PaymentMethod"
             android:exported="true" />
         <activity
-            android:name=".Delivery"
+            android:name=".Ui.Delivery"
             android:exported="true" />
         <activity
-            android:name=".Dashboard"
+            android:name=".Ui.Dashboard"
             android:exported="true" />
         <activity
-            android:name=".Register"
+            android:name=".Ui.Register"
             android:exported="true" />
         <activity
-            android:name=".Login"
+            android:name=".Ui.Login"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

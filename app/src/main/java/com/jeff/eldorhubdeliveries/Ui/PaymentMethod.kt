@@ -1,11 +1,10 @@
-package com.jeff.eldorhubdeliveries
+package com.jeff.eldorhubdeliveries.Ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import com.jeff.eldorhubdeliveries.databinding.ActivityPaymentMethodBinding
-import com.jeff.eldorhubdeliveries.databinding.EditProfileBinding
 import com.jeff.eldorhubdeliveries.databinding.LipaBinding
 
 class PaymentMethod : AppCompatActivity() {

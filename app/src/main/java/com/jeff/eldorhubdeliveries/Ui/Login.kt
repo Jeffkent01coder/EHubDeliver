@@ -1,10 +1,9 @@
-package com.jeff.eldorhubdeliveries
+package com.jeff.eldorhubdeliveries.Ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.jeff.eldorhubdeliveries.databinding.ActivityLoginBinding
-import com.jeff.eldorhubdeliveries.databinding.ActivityMainBinding
 
 class Login : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding

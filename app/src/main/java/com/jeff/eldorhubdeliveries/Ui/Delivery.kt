@@ -1,9 +1,8 @@
-package com.jeff.eldorhubdeliveries
+package com.jeff.eldorhubdeliveries.Ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.RadioButton
 import com.jeff.eldorhubdeliveries.databinding.ActivityDeliveryBinding
 
@@ -16,7 +15,7 @@ class Delivery : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.Payment.setOnClickListener {
-            var intent = Intent(this,PaymentMethod::class.java)
+            var intent = Intent(this, PaymentMethod::class.java)
             val loc = binding.etLocation.text.toString()
             val des = binding.etDestination.text.toString()
             intent.putExtra("loc", loc)

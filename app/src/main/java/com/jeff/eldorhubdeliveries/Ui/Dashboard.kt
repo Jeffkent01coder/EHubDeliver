@@ -1,4 +1,4 @@
-package com.jeff.eldorhubdeliveries
+package com.jeff.eldorhubdeliveries.Ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +17,7 @@ class Dashboard : AppCompatActivity() {
             startActivity(Intent(this, Delivery::class.java))
 
             binding.imageView4.setOnClickListener {
-                startActivity(Intent(this,Profile::class.java))
+                startActivity(Intent(this, Profile::class.java))
             }
         }
     }

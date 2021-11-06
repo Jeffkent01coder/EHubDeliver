@@ -1,8 +1,7 @@
-package com.jeff.eldorhubdeliveries
+package com.jeff.eldorhubdeliveries.Ui
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
-import dagger.hilt.android.qualifiers.ApplicationContext
 
 @HiltAndroidApp
 class EldorHubApplication : Application()
