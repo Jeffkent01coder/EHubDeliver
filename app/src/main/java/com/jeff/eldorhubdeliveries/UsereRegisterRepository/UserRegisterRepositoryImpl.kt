@@ -6,6 +6,7 @@ import com.jeff.eldorhubdeliveries.DataBase.Users
 import javax.inject.Inject
 
 class UserRegisterRepositoryImpl @Inject constructor(private val dao: UserDao):UserRegisterRepository {
+
     override suspend fun insertUsers(users: Users) {
         dao.insertUsers(users)
     }
